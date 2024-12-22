@@ -1,5 +1,5 @@
 languageCode = 'en-us'
-title = 'Blog'
+title = "spanishpear"
 theme = 'PaperMod'
 baseURL = "https://examplesite.com/"
 paginate = 5
@@ -15,7 +15,7 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "Blog"
+title = "spanishpear"
 description = "Software Engineer"
 keywords = [ "Blog", "Portfolio" ]
 author = "Shrey"
@@ -24,7 +24,7 @@ DateFormat = "22-09-2000"
 defaultTheme = "dark"
 disableThemeToggle = false
 ShowReadingTime = true
-ShowShareButtons = true
+ShowShareButtons = false 
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true 
@@ -68,7 +68,7 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my blog, enjoy the scribbles!"
+  Content = "Welcome to my place! Can I get you anything to drink? Perhaps some coffee?"
 
   [[params.socialIcons]]
   name = "github"
@@ -113,6 +113,13 @@ identifier = "tags"
 name = "tags"
 url = "/tags/"
 weight = 20
+
+[[menu.main]]
+identifier = "whoami"
+name = "whoami"
+url = "/about/"
+weight=5
+hidden=true
 
 
 [markup.highlight]
