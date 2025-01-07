@@ -1,5 +1,6 @@
 
 # Content
+- [x] footnote supports
 - [] check codeblocks
 - [] populate about
 - [] populate projects?
