@@ -2,6 +2,7 @@ languageCode = 'en-us'
 title = "spanishpear"
 theme = 'PaperMod'
 baseURL = "https://examplesite.com/"
+rssLimit = 25
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -24,6 +25,7 @@ defaultTheme = "dark"
 disableThemeToggle = false
 ShowReadingTime = true
 ShowShareButtons = false 
+ShowFullTextinRSS = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true 
@@ -77,6 +79,10 @@ tocopen = false
   name = "bluesky"
   url = "https://bsky.app/profile/spanishpear.bsky.social/"
 
+  [[params.socialIcons]]
+  name = "rss"
+  url = "https://hedgehog.gay/index.xml"
+
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
 
@@ -102,9 +108,9 @@ SiteVerificationTag = "XYZabc"
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
-identifier = "categories"
-name = "categories"
-url = "/categories/"
+identifier = "blog"
+name = "blog"
+url = "/blog/"
 weight = 10
 
 [[menu.main]]
