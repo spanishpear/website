@@ -129,3 +129,12 @@ codeFences= true
 guessSyntax= true
 lineNos= true
 style = "gruvbox" 
+
+[markup.goldmark.extensions]
+footnote = true
+
+[markup.goldmark.renderer]
+unsafe = true
+footnoteAnchorPrefix = ""
+footnoteReturnLinkContents = "^"
+
